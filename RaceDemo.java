@@ -67,7 +67,7 @@ public class RaceDemo {
             workers[i] = new Thread(new Runnable() {
                 public void run() {
                     for (int k = 0; k < OPS_PER_THREAD; k++) {
-                        acc.deposit(1);
+                        acc.deposit(1); 
                     }
                 }
             });
